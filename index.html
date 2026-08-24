@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gabriel Rezende — Desenvolvedor Full Stack & Arquitetura de Software</title>
+<meta name="description" content="Gabriel Rezende — Desenvolvedor Full Stack. Uso arquitetura de software e IA aplicada para transformar sistemas travados em vantagem competitiva.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%232C3A66%22/><text x=%2250%22 y=%2266%22 font-size=%2255%22 font-family=%22monospace%22 fill=%22%23F1F3F6%22 text-anchor=%22middle%22>GR</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grid-overlay" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#top" class="logo">GR<span class="logo-dot">.</span></a>
+    <nav class="nav" id="nav">
+      <a href="#negocio">Pra seu negócio</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#abordagem">Abordagem</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#skills">Skills</a>
+      <a href="#contato" class="nav-cta">Contato</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero wrap">
+    <div class="hero-copy">
+      <p class="eyebrow">Desenvolvedor Full Stack · Arquitetura de Software</p>
+      <h1 class="hero-title">Arquitetura que transforma sistemas travados em <span class="hl">vantagem competitiva.</span></h1>
+      <p class="hero-sub">Uso Clean Architecture, DDD e IA aplicada pra construir sistemas que crescem junto com o negócio — sem virar dor de cabeça técnica depois. Do código à decisão de arquitetura, sempre pensando em quem usa e em quem paga a conta.</p>
+      <div class="hero-actions">
+        <a href="#projetos" class="btn btn-primary">Ver projetos</a>
+        <a href="#contato" class="btn btn-ghost">Falar comigo</a>
+      </div>
+    </div>
+
+    <div class="hero-diagram" aria-hidden="true">
+      <svg viewBox="0 0 460 420" xmlns="http://www.w3.org/2000/svg" class="diagram-svg">
+        <!-- connecting lines -->
+        <path class="d-line" d1="1" d="M120,90 L120,190" />
+        <path class="d-line" d1="2" d="M120,250 L120,330" />
+        <path class="d-line" d1="3" d="M180,120 L340,120" />
+        <path class="d-line" d1="4" d="M180,290 L340,290" />
+
+        <!-- box: Interface -->
+        <g class="d-box" d1="1">
+          <rect x="20" y="50" width="200" height="50" rx="10"/>
+          <text x="40" y="80" class="box-label">Interface</text>
+        </g>
+        <g class="d-note" d1="1">
+          <text x="350" y="75" class="note-label">o que a pessoa vê</text>
+        </g>
+
+        <!-- box: Regras de negócio -->
+        <g class="d-box" d1="2">
+          <rect x="20" y="190" width="200" height="60" rx="10"/>
+          <text x="40" y="215" class="box-label">Regras de</text>
+          <text x="40" y="238" class="box-label">Negócio</text>
+        </g>
+        <g class="d-note" d1="2">
+          <text x="350" y="150" class="note-label">menos bugs,</text>
+          <text x="350" y="170" class="note-label">mais confiança</text>
+        </g>
+
+        <!-- box: Dados -->
+        <g class="d-box" d1="3">
+          <rect x="20" y="330" width="200" height="50" rx="10"/>
+          <text x="40" y="360" class="box-label">Dados</text>
+        </g>
+        <g class="d-note" d1="3">
+          <text x="350" y="320" class="note-label">escala sem</text>
+          <text x="350" y="340" class="note-label">dor de cabeça</text>
+        </g>
+
+        <!-- annotation callout -->
+        <g class="d-callout" d1="4">
+          <line x1="340" y1="120" x2="340" y2="290" />
+        </g>
+      </svg>
+      <p class="diagram-caption">decisão técnica vira resultado de negócio</p>
+    </div>
+  </section>
+
+  <!-- PRA SEU NEGÓCIO -->
+  <section id="negocio" class="section wrap reveal">
+    <p class="section-eyebrow">01 — Pra seu negócio</p>
+    <h2 class="section-title">Se o sistema já trava o time ou te faz confiar mais na planilha do que na tela, o problema geralmente não é "precisa de mais gente" — é arquitetura.</h2>
+    <div class="process-grid">
+      <div class="process-card">
+        <span class="process-num">01</span>
+        <h3>Diagnóstico</h3>
+        <p>Entendo o problema real por trás do pedido técnico. Mapeio onde o sistema atual trava o negócio — não só onde o código "está feio".</p>
+      </div>
+      <div class="process-card">
+        <span class="process-num">02</span>
+        <h3>Arquitetura &amp; Construção</h3>
+        <p>Desenho e construo uma solução que resolve o problema de hoje sem virar dívida técnica amanhã — pensando em quanto vai custar mudar isso daqui 1 ano.</p>
+      </div>
+      <div class="process-card">
+        <span class="process-num">03</span>
+        <h3>Evolução Contínua</h3>
+        <p>Acompanho, meço e ajusto. O sistema evolui junto com o negócio — não vira gargalo de novo em 6 meses.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre" class="section wrap reveal">
+    <p class="section-eyebrow">02 — Sobre</p>
+    <div class="about-grid">
+      <p class="about-text">
+        Desenvolvedor Full Stack há 7 anos, com 5 dedicados ao desenvolvimento de software. Hoje atuo com .NET e Angular,
+        mantendo base sólida em backend com Java e Spring. Trabalho tanto em sistemas modernos quanto legados — do
+        primeiro commit à evolução contínua da solução — sempre pensando em qualidade técnica e valor real pro negócio.
+      </p>
+      <p class="about-text">
+        Estou me especializando em Arquitetura de Software, aplicando DDD, SOLID, Arquitetura Hexagonal e Clean
+        Architecture pra construir sistemas mais escaláveis e sustentáveis a longo prazo. Tenho experiência com AWS,
+        Docker e Kubernetes, além de vivência em sistemas financeiros — coadquirência, antecipação, conciliação e
+        registro (CERC).
+      </p>
+    </div>
+  </section>
+
+  <!-- ABORDAGEM (dual audience) -->
+  <section id="abordagem" class="section wrap reveal">
+    <p class="section-eyebrow">03 — Como eu penso</p>
+    <h2 class="section-title">Mesma decisão técnica, dois jeitos de explicar por quê.</h2>
+    <div class="approach-grid">
+      <div class="approach-card approach-business">
+        <p class="approach-label">Pra quem empreende</p>
+        <ul>
+          <li>Arquitetura bem pensada é a diferença entre um sistema que aguenta crescer e um que trava o time toda sprint.</li>
+          <li>Uso IA como parte do processo, não como modismo — pra achar problema antes que vire incidente.</li>
+          <li>Decisão técnica sempre com impacto, prazo e risco na mesa — na língua do negócio.</li>
+        </ul>
+      </div>
+      <div class="approach-card approach-tech">
+        <p class="approach-label">Pra quem é do time técnico</p>
+        <ul>
+          <li>DDD, Clean Architecture e Arquitetura Hexagonal aplicados de verdade, não só no nome do pacote.</li>
+          <li>Microsserviços, AWS (EKS, SQS, S3), Docker/Kubernetes, CI/CD e observabilidade (New Relic, Datadog).</li>
+          <li>Do legado em T-SQL ao microsserviço novo em Spring Boot — transito bem entre os dois mundos.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETOS -->
+  <section id="projetos" class="section wrap reveal">
+    <p class="section-eyebrow">04 — Projetos</p>
+    <h2 class="section-title">Sistemas que resolveram um problema real.</h2>
+
+    <div class="project-grid">
+
+      <article class="project-card">
+        <div class="project-visual">
+          <svg viewBox="0 0 400 240" class="mockup-svg" aria-hidden="true">
+            <rect class="m-frame" x="1" y="1" width="398" height="238" rx="12"/>
+            <rect class="m-chrome" x="1" y="1" width="398" height="26" rx="12"/>
+            <circle class="m-dot" cx="18" cy="14" r="3.5"/><circle class="m-dot" cx="30" cy="14" r="3.5"/><circle class="m-dot" cx="42" cy="14" r="3.5"/>
+            <rect class="m-url" x="130" y="8" width="140" height="12" rx="6"/>
+            <!-- kanban columns -->
+            <text class="m-col-label" x="24" y="52">Aberta</text>
+            <text class="m-col-label" x="154" y="52">Em andamento</text>
+            <text class="m-col-label" x="290" y="52">Concluída</text>
+            <rect class="m-card m-accent-teal" x="20" y="62" width="106" height="52" rx="8"/>
+            <rect class="m-card-bar" x="30" y="74" width="60" height="6" rx="3"/>
+            <rect class="m-card-bar-soft" x="30" y="86" width="40" height="6" rx="3"/>
+            <rect class="m-card m-accent-amber" x="150" y="62" width="106" height="52" rx="8"/>
+            <rect class="m-card-bar" x="160" y="74" width="60" height="6" rx="3"/>
+            <rect class="m-card-bar-soft" x="160" y="86" width="40" height="6" rx="3"/>
+            <rect class="m-card m-accent-amber" x="150" y="122" width="106" height="52" rx="8"/>
+            <rect class="m-card-bar" x="160" y="134" width="60" height="6" rx="3"/>
+            <rect class="m-card-bar-soft" x="160" y="146" width="45" height="6" rx="3"/>
+            <rect class="m-card m-accent-indigo" x="280" y="62" width="100" height="52" rx="8"/>
+            <rect class="m-card-bar" x="290" y="74" width="55" height="6" rx="3"/>
+            <rect class="m-card-bar-soft" x="290" y="86" width="35" height="6" rx="3"/>
+          </svg>
+        </div>
+        <span class="result-tag">Resultado: fluxo de ordens de serviço não trava mesmo com pico de demanda</span>
+        <h3>Oficina48</h3>
+        <p class="project-plain">Sistema de gestão pra oficina mecânica, pensado pra aguentar o caos do dia a dia sem travar.</p>
+        <p class="project-tech">Arquitetura de microsserviços na AWS (EKS), API Gateway, padrão Saga via SQS, CI/CD automatizado e observabilidade com New Relic.</p>
+        <ul class="tag-row">
+          <li>AWS EKS</li><li>Microsserviços</li><li>SQS · Saga</li><li>CI/CD</li><li>New Relic</li>
+        </ul>
+      </article>
+
+      <article class="project-card">
+        <div class="project-visual">
+          <svg viewBox="0 0 400 240" class="mockup-svg" aria-hidden="true">
+            <rect class="m-frame" x="1" y="1" width="398" height="238" rx="12"/>
+            <rect class="m-chrome" x="1" y="1" width="398" height="26" rx="12"/>
+            <circle class="m-dot" cx="18" cy="14" r="3.5"/><circle class="m-dot" cx="30" cy="14" r="3.5"/><circle class="m-dot" cx="42" cy="14" r="3.5"/>
+            <rect class="m-url" x="130" y="8" width="140" height="12" rx="6"/>
+            <!-- video preview -->
+            <rect class="m-card m-accent-indigo" x="20" y="46" width="180" height="110" rx="8"/>
+            <polygon class="m-play" points="98,86 98,126 128,106"/>
+            <rect class="m-progress-track" x="20" y="166" width="180" height="8" rx="4"/>
+            <rect class="m-progress-fill" x="20" y="166" width="120" height="8" rx="4"/>
+            <text class="m-note" x="20" y="192">Processando frames…</text>
+            <!-- frame grid -->
+            <rect class="m-card m-accent-teal" x="216" y="46" width="72" height="50" rx="6"/>
+            <rect class="m-card m-accent-teal" x="296" y="46" width="72" height="50" rx="6"/>
+            <rect class="m-card m-accent-teal" x="216" y="104" width="72" height="50" rx="6"/>
+            <rect class="m-card m-accent-amber" x="296" y="104" width="72" height="50" rx="6"/>
+            <rect class="m-pill" x="216" y="166" width="90" height="20" rx="10"/>
+            <text class="m-pill-text" x="228" y="180">Concluído</text>
+          </svg>
+        </div>
+        <span class="result-tag">Resultado: usuário recebe o vídeo processado sem precisar ficar checando a tela</span>
+        <h3>Video2Frames</h3>
+        <p class="project-plain">Plataforma que processa vídeos na nuvem sem deixar o usuário esperando — upload, processamento e aviso automático quando fica pronto.</p>
+        <p class="project-tech">Frontend em Angular, backend em Spring Boot com Clean Architecture, filas assíncronas via S3/SQS, autenticação JWT e infraestrutura em Kubernetes/Terraform.</p>
+        <ul class="tag-row">
+          <li>Angular</li><li>Spring Boot</li><li>Clean Architecture</li><li>AWS S3/SQS</li><li>Kubernetes</li>
+        </ul>
+      </article>
+
+      <article class="project-card">
+        <div class="project-visual">
+          <svg viewBox="0 0 400 240" class="mockup-svg" aria-hidden="true">
+            <rect class="m-frame" x="1" y="1" width="398" height="238" rx="12"/>
+            <rect class="m-chrome" x="1" y="1" width="398" height="26" rx="12"/>
+            <circle class="m-dot" cx="18" cy="14" r="3.5"/><circle class="m-dot" cx="30" cy="14" r="3.5"/><circle class="m-dot" cx="42" cy="14" r="3.5"/>
+            <rect class="m-url" x="130" y="8" width="140" height="12" rx="6"/>
+            <!-- pipeline nodes -->
+            <line class="m-pipe-line" x1="60" y1="130" x2="150" y2="130"/>
+            <line class="m-pipe-line" x1="180" y1="130" x2="270" y2="130"/>
+            <line class="m-pipe-line" x1="300" y1="130" x2="340" y2="130"/>
+            <circle class="m-node m-accent-teal" cx="45" cy="130" r="22"/>
+            <text class="m-node-label" x="45" y="134">Build</text>
+            <circle class="m-node m-accent-teal" cx="165" cy="130" r="22"/>
+            <text class="m-node-label" x="165" y="134">Test</text>
+            <circle class="m-node m-accent-amber" cx="285" cy="130" r="22"/>
+            <text class="m-node-label" x="285" y="134">Deploy</text>
+            <circle class="m-node m-accent-indigo" cx="358" cy="130" r="18"/>
+            <rect class="m-pill" x="248" y="66" width="72" height="20" rx="10"/>
+            <text class="m-pill-text" x="256" y="80">IA sugeriu</text>
+            <line class="m-pipe-line" x1="284" y1="88" x2="284" y2="106"/>
+          </svg>
+        </div>
+        <span class="result-tag">Resultado: equipe descobre o problema no pipeline antes dele virar downtime</span>
+        <h3>Santrilogia</h3>
+        <p class="project-plain">Plataforma pra gerenciar pipelines e infraestrutura de CI/CD com apoio de IA, reduzindo o tempo entre escrever código e ele rodar em produção com segurança.</p>
+        <p class="project-tech">Orquestração de pipelines, integração com IA pra análise e otimização de entregas contínuas.</p>
+        <ul class="tag-row">
+          <li>CI/CD</li><li>Pipelines</li><li>IA aplicada</li><li>DevOps</li>
+        </ul>
+      </article>
+
+      <article class="project-card">
+        <div class="project-visual">
+          <svg viewBox="0 0 400 240" class="mockup-svg" aria-hidden="true">
+            <rect class="m-frame" x="1" y="1" width="398" height="238" rx="12"/>
+            <rect class="m-chrome" x="1" y="1" width="398" height="26" rx="12"/>
+            <circle class="m-dot" cx="18" cy="14" r="3.5"/><circle class="m-dot" cx="30" cy="14" r="3.5"/><circle class="m-dot" cx="42" cy="14" r="3.5"/>
+            <rect class="m-url" x="130" y="8" width="140" height="12" rx="6"/>
+            <!-- bid card -->
+            <rect class="m-card m-accent-indigo" x="20" y="46" width="170" height="60" rx="8"/>
+            <text class="m-note" x="34" y="68">Lance atual</text>
+            <rect class="m-card-bar" x="34" y="80" width="80" height="10" rx="4"/>
+            <!-- bar chart -->
+            <rect class="m-bar-chart m-accent-teal" x="210" y="90" width="24" height="16" rx="3"/>
+            <rect class="m-bar-chart m-accent-teal" x="242" y="74" width="24" height="32" rx="3"/>
+            <rect class="m-bar-chart m-accent-amber" x="274" y="54" width="24" height="52" rx="3"/>
+            <rect class="m-bar-chart m-accent-indigo" x="306" y="40" width="24" height="66" rx="3"/>
+            <rect class="m-pill" x="20" y="122" width="182" height="24" rx="12"/>
+            <text class="m-pill-text" x="32" y="138">↑ Antecipação liberada</text>
+            <rect class="m-card-bar-soft" x="20" y="164" width="130" height="6" rx="3"/>
+            <rect class="m-card-bar-soft" x="20" y="176" width="90" height="6" rx="3"/>
+          </svg>
+        </div>
+        <span class="result-tag">Resultado: produtor recebe antecipação sem depender de planilha e telefone</span>
+        <h3>Rural Crédito</h3>
+        <p class="project-plain">Sistema completo de gestão de leilões pro agronegócio, com pagamentos e antecipação financeira — dinheiro na mão do produtor mais rápido.</p>
+        <p class="project-tech">Fluxo end-to-end de leilão, processamento de pagamentos e módulo de antecipação financeira integrados numa única plataforma.</p>
+        <ul class="tag-row">
+          <li>Sistema Financeiro</li><li>Pagamentos</li><li>Antecipação</li><li>Agronegócio</li>
+        </ul>
+      </article>
+
+      <article class="project-card">
+        <div class="project-visual">
+          <svg viewBox="0 0 400 240" class="mockup-svg" aria-hidden="true">
+            <rect class="m-frame" x="1" y="1" width="398" height="238" rx="12"/>
+            <rect class="m-chrome" x="1" y="1" width="398" height="26" rx="12"/>
+            <circle class="m-dot" cx="18" cy="14" r="3.5"/><circle class="m-dot" cx="30" cy="14" r="3.5"/><circle class="m-dot" cx="42" cy="14" r="3.5"/>
+            <rect class="m-url" x="130" y="8" width="140" height="12" rx="6"/>
+            <!-- profile cards -->
+            <rect class="m-card m-accent-amber" x="20" y="46" width="112" height="130" rx="10"/>
+            <circle class="m-avatar" cx="76" cy="80" r="18"/>
+            <rect class="m-card-bar" x="42" y="106" width="68" height="7" rx="3.5"/>
+            <rect class="m-pill" x="42" y="122" width="68" height="16" rx="8"/>
+            <text class="m-pill-text" x="52" y="134" style="font-size:9px">Premium ★</text>
+            <rect class="m-card m-accent-teal" x="144" y="46" width="112" height="130" rx="10"/>
+            <circle class="m-avatar-soft" cx="200" cy="80" r="18"/>
+            <rect class="m-card-bar" x="166" y="106" width="68" height="7" rx="3.5"/>
+            <rect class="m-card-bar-soft" x="166" y="122" width="50" height="6" rx="3"/>
+            <rect class="m-card m-accent-teal" x="268" y="46" width="112" height="130" rx="10"/>
+            <circle class="m-avatar-soft" cx="324" cy="80" r="18"/>
+            <rect class="m-card-bar" x="290" y="106" width="68" height="7" rx="3.5"/>
+            <rect class="m-card-bar-soft" x="290" y="122" width="50" height="6" rx="3"/>
+          </svg>
+        </div>
+        <span class="result-tag">Resultado: tatuador premium aparece primeiro e recebe pedido de orçamento direto na plataforma</span>
+        <h3>BrasilInk</h3>
+        <p class="project-plain">Plataforma de anúncios pra tatuadores: quem procura encontra por estilo e localização, quem anuncia assina um plano e ganha destaque.</p>
+        <p class="project-tech">Frontend em Angular, backend em Kotlin/Spring Boot, assinatura de planos com pagamento via Mercado Pago (Checkout Pro).</p>
+        <ul class="tag-row">
+          <li>Angular</li><li>Kotlin</li><li>Spring Boot</li><li>Mercado Pago</li>
+        </ul>
+      </article>
+
+      <article class="project-card">
+        <div class="project-visual">
+          <svg viewBox="0 0 400 240" class="mockup-svg" aria-hidden="true">
+            <rect class="m-frame" x="1" y="1" width="398" height="238" rx="12"/>
+            <rect class="m-chrome" x="1" y="1" width="398" height="26" rx="12"/>
+            <circle class="m-dot" cx="18" cy="14" r="3.5"/><circle class="m-dot" cx="30" cy="14" r="3.5"/><circle class="m-dot" cx="42" cy="14" r="3.5"/>
+            <rect class="m-url" x="130" y="8" width="140" height="12" rx="6"/>
+            <!-- dependency graph -->
+            <line class="m-pipe-line" x1="60" y1="80" x2="118" y2="112"/>
+            <line class="m-pipe-line" x1="190" y1="70" x2="140" y2="106"/>
+            <line class="m-pipe-line" x1="55" y1="170" x2="112" y2="132"/>
+            <line class="m-pipe-line" x1="195" y1="175" x2="142" y2="136"/>
+            <circle class="m-node m-accent-indigo" cx="130" cy="122" r="26"/>
+            <text class="m-node-label" x="130" y="126" style="font-size:8px">core.sp</text>
+            <circle class="m-node m-accent-teal" cx="45" cy="70" r="15"/>
+            <circle class="m-node m-accent-teal" cx="205" cy="58" r="15"/>
+            <circle class="m-node m-accent-amber" cx="40" cy="182" r="15"/>
+            <circle class="m-node m-accent-teal" cx="210" cy="188" r="15"/>
+            <!-- components panel -->
+            <text class="m-col-label" x="240" y="52">Componentes</text>
+            <rect class="m-card-bar-soft" x="240" y="66" width="54" height="6" rx="3"/>
+            <rect class="m-pill m-pill-teal" x="304" y="60" width="60" height="16" rx="8"/>
+            <text class="m-pill-text" x="313" y="72" style="font-size:9px">LOW</text>
+            <rect class="m-card-bar-soft" x="240" y="94" width="54" height="6" rx="3"/>
+            <rect class="m-pill m-pill-amber" x="304" y="88" width="60" height="16" rx="8"/>
+            <text class="m-pill-text m-pill-amber-text" x="308" y="100" style="font-size:9px">MEDIUM</text>
+            <rect class="m-card-bar-soft" x="240" y="122" width="54" height="6" rx="3"/>
+            <rect class="m-pill m-pill-indigo" x="304" y="116" width="60" height="16" rx="8"/>
+            <text class="m-pill-text m-pill-indigo-text" x="313" y="128" style="font-size:9px">HIGH</text>
+          </svg>
+        </div>
+        <span class="result-tag">Resultado: você entende o legado antes de decidir o que reescrever — sem apostar às cegas</span>
+        <h3>Legacy Intelligence</h3>
+        <p class="project-plain">Plataforma open source que mapeia e analisa sistemas legados antes de qualquer decisão de reescrever — começando por Stored Procedures em SQL Server.</p>
+        <p class="project-tech">Parsing determinístico + grafo de dependências, com IA reservada só pra interpretação semântica e context retrieval seletivo — nunca manda o sistema inteiro pra LLM. Full stack em Next.js, dados em PostgreSQL.</p>
+        <ul class="tag-row">
+          <li>SQL Server</li><li>Grafo de Dependências</li><li>IA aplicada</li><li>Next.js</li><li>Open Source</li>
+        </ul>
+      </article>
+
+    </div>
+  </section>
+  <section id="skills" class="section wrap reveal">
+    <p class="section-eyebrow">05 — Skills</p>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <p class="skill-cat">Backend</p>
+        <ul class="tag-row"><li>.NET / C#</li><li>Java</li><li>Spring Boot</li><li>Kotlin</li></ul>
+      </div>
+      <div class="skill-group">
+        <p class="skill-cat">Frontend</p>
+        <ul class="tag-row"><li>Angular</li></ul>
+      </div>
+      <div class="skill-group">
+        <p class="skill-cat">Dados</p>
+        <ul class="tag-row"><li>SQL Server / T-SQL</li><li>PostgreSQL</li><li>MongoDB</li></ul>
+      </div>
+      <div class="skill-group">
+        <p class="skill-cat">Cloud & Infra</p>
+        <ul class="tag-row"><li>AWS (EKS, S3, SQS)</li><li>Docker</li><li>Kubernetes</li><li>Terraform</li></ul>
+      </div>
+      <div class="skill-group">
+        <p class="skill-cat">Arquitetura</p>
+        <ul class="tag-row"><li>DDD</li><li>Clean Architecture</li><li>Hexagonal</li><li>Microsserviços</li></ul>
+      </div>
+      <div class="skill-group">
+        <p class="skill-cat">IA aplicada</p>
+        <ul class="tag-row"><li>Análise de sistemas legados</li><li>Otimização de pipelines</li></ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIÊNCIA -->
+  <section id="experiencia" class="section wrap reveal">
+    <p class="section-eyebrow">06 — Experiência</p>
+    <ul class="timeline">
+      <li>
+        <span class="tl-period">abr 2025 — atual</span>
+        <span class="tl-role">Desenvolvedor .NET/Angular</span>
+        <span class="tl-company">GFT Technologies</span>
+      </li>
+      <li>
+        <span class="tl-period">fev 2024 — abr 2025</span>
+        <span class="tl-role">Desenvolvedor .NET/Angular</span>
+        <span class="tl-company">Delfia</span>
+      </li>
+      <li>
+        <span class="tl-period">jan 2022 — jan 2024</span>
+        <span class="tl-role">Desenvolvedor Java/React</span>
+        <span class="tl-company">CENPROS</span>
+      </li>
+      <li>
+        <span class="tl-period">ago 2019 — out 2020</span>
+        <span class="tl-role">Aprendiz de TI</span>
+        <span class="tl-company">Indústrias Anhembi</span>
+      </li>
+    </ul>
+    <div class="education">
+      <p class="skill-cat">Formação</p>
+      <p class="edu-item"><strong>FIAP</strong> — Pós-graduação Lato Sensu, Arquitetura de Software <span class="edu-period">(2025 – 2026)</span></p>
+      <p class="edu-item"><strong>Universidade São Judas Tadeu</strong> — Bacharelado, Sistemas de Informação <span class="edu-period">(2021 – 2025)</span></p>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="section wrap reveal contact-section">
+    <p class="section-eyebrow">07 — Contato</p>
+    <h2 class="section-title">Bora conversar sobre o próximo sistema.</h2>
+    <div class="contact-actions">
+      <a href="mailto:gabrielrezendedev492@gmail.com" class="btn btn-primary">gabrielrezendedev492@gmail.com</a>
+      <a href="https://www.linkedin.com/feed/" class="btn btn-ghost" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/" class="btn btn-ghost" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span>© 2026 Gabriel Rezende</span>
+    <span class="footer-mono">feito com Angular no coração &amp; HTML no fim de semana</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
